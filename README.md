@@ -2,6 +2,8 @@
 
 # Medical Appointment
 
+Data from Kaggle [Link](https://www.kaggle.com/datasets/joniarroba/noshowappointments/data)
+
 ## Aim of this dataset
 
 It's a medical appointment dataset which contains 110.527 data with 14 variables. The aim of this data set is try to understand patient why not showing up their appointment.
@@ -44,14 +46,14 @@ In the unsupervised learning section, K-Means Clustering was applied to identify
 
 Elbow Method: The elbow curve helped in visualizing the point where adding more clusters provided diminishing returns.
 Silhouette Score: This score was used to measure how similar each point is to its own cluster compared to other clusters, aiding in selecting the best number of clusters.
-Feature Engineering
-To improve model performance and enhance the quality of the data, various feature engineering techniques were applied. These techniques expanded the dataset by creating new features that capture additional information, ultimately boosting both the supervised and unsupervised model results.
+
 
 Key Libraries Used
 CatBoost: For supervised learning tasks.
 Optuna: For hyperparameter optimization.
 K-Means: For clustering analysis.
+PCA: For visualization of clustering
 Scikit-learn: For evaluation metrics such as Silhouette Score and Elbow Method.
 This project showcases how machine learning models can be effectively used for both predictive tasks and clustering, with proper attention given to hyperparameter tuning and feature engineering.
 
-[Kaggle Link] (https://www.kaggle.com/code/tugceerdemlial/medicalappointment-supervised-unsupervised/)
+[Kaggle Link](https://www.kaggle.com/code/tugceerdemlial/medicalappointment-supervised-unsupervised/)
